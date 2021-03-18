@@ -94,7 +94,7 @@ while player1.hp > 0 and computer.hp > 0:
 	  	co_select=random.randint(1,4)
 	  elif player1_select==2 and co_select==3:
 	  	print('you lost this round!')
-	  	player.normal_lost()
+	  	player1.normal_lost()
 	  	status()
 	  	game()
 	  	player1_select=int(input())
